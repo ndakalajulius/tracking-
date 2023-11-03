@@ -1,18 +1,18 @@
 import React from "react";
-
+import './Navbar.css'
 const Navbar = () => {
   return (
     <div className="navbar">
       <ul className="nav-links">
         <li>
-          <a href="#">Home</a>
+          <a href="/">HOME</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="/about">ABOUT</a>
         </li>
 
         <li>
-          <a href="#">Contact</a>
+          <a href="/contact">CONTACT</a>
         </li>
       </ul>
     </div>
